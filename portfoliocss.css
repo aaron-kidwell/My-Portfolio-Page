@@ -1,0 +1,82 @@
+html {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  line-height: 1.4em;
+  }
+
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  top: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: solid;
+  border-style: outset;
+  border-color: red;
+  background-image: url("https://freeforcommercialuse.net/wp-content/uploads/2021/03/msp_2011_5547.jpg");
+  background-position: right;
+  }
+#navtitle {  
+  margin-right: auto;
+}
+#flexy {
+  
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#about-me {
+  margin-top: 20px;
+  border: solid;
+  border-color: red;
+  border-style: outset; 
+  background-image: url("https://images.unsplash.com/photo-1489549132488-d00b7eee80f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80");
+  background-position: top;
+    }
+#about-text {
+  text-align: left;
+  font-size: 16px;
+}
+#projects {
+  margin-top: 20px;
+  height: 300px;
+  border: solid;
+  border-color: red;
+  border-style: outset;
+  background-image: url("https://images.unsplash.com/photo-1489549132488-d00b7eee80f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80");
+  background-position: top;
+}
+#projects a{
+  font-size: 16px;
+}
+
+#contact {
+  margin-top: 20px;
+  height: 300px;
+  border: solid;
+  border-color: red;
+  border-style: outset;
+  background-image: url("https://images.unsplash.com/photo-1489549132488-d00b7eee80f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80");
+  background-position: top;
+}
+#contact p{
+  font-size: 16px;
+  height: 300px;
+}
+
+
+a:link {
+  color: white;   
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  background-color: red;
+  border: solid;
+  border-color: red;
+    
+}
